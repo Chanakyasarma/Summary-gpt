@@ -37,7 +37,7 @@ const Demo = () => {
     setTimeout(()=> setCopied(false), 3000)
   }
   return (
-    <section className='mt-16 w-full max-w-full'>
+    <section className='mt-16 max-w-4xl max-w-full'>
       <div className='flex flex-col w-full gap-2'>
         <form
          className='relative flex justify-center items-center'
